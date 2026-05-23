@@ -1,9 +1,12 @@
 import './App.css'
+import Navbar from './Navbar'
 
 function App() {
 
   return (
-    <h1 className='bg-blue-500 text-white'>Hello, World!</h1>
+    <div>
+      <Navbar />
+    </div>
   )
 }
 export default App
