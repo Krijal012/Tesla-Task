@@ -1,25 +1,25 @@
 export default function Navbar(){
     return(
-        <div className="flex items-center justify-between px-8 py-4 bg-white shadow-md">
+        <div className="sticky top-0 z-50 flex items-center justify-between px-8 py-4 bg-white shadow-md">
             <img 
                 src="../src/assets/logo.png" 
                 alt="Tesla Logo" 
                 className="h-8 w-auto"
             />
             <div className="flex gap-8">
-                <a href="#" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
+                <a href="#vehicle" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
                     Vehicle
                 </a>
-                <a href="#" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
+                <a href="#energy" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
                     Energy
                 </a>
-                <a href="#" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
+                <a href="#charge" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
                     Charge
                 </a>
-                <a href="#" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
+                <a href="#discover" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
                     Discover
                 </a>
-                <a href="#" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
+                <a href="#shop" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
                     Shop
                 </a>
             </div>
