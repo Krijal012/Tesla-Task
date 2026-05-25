@@ -5,6 +5,7 @@ import Tesla1 from './Components/Tesla1'
 import Tesla2 from './Components/Tesla2'
 import Tesla3 from './Components/Tesla3'
 import SolarRoof from './Components/SolarRoof'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <div id="shop" className="scroll-mt-16">
         <SolarRoof />
       </div>
+      <Footer />
     </div>
   )
 }
